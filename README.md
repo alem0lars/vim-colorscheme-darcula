@@ -1,6 +1,6 @@
 # vim-colorscheme-darcula
 
-The Jetbrains Darcula color scheme for VIM
+A slightly more accurate Jetbrains Darcula color scheme for VIM.
 
 ## Screenshots
 
