@@ -21,8 +21,8 @@ hi StatusLine ctermfg=146 ctermbg=59 cterm=bold guifg=#a9b7c6 guibg=#505458 gui=
 hi StatusLineNC ctermfg=146 ctermbg=59 cterm=NONE guifg=#a9b7c6 guibg=#505458 gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
-hi IncSearch ctermfg=235 ctermbg=143 cterm=NONE guifg=#2b2b2b guibg=#a5c25c gui=NONE
-hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi Search ctermfg=235 ctermbg=143 cterm=NONE guifg=#2b2b2b guibg=#a5c25c gui=NONE
+hi IncSearch term=reverse ctermfg=250 ctermbg=24 guifg=#bbbbbb guibg=#214283 gui=none
 hi Directory ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9876aa guibg=NONE gui=italic
 hi Folded ctermfg=244 ctermbg=235 cterm=NONE guifg=#808080 guibg=#2b2b2b gui=NONE
 
@@ -43,7 +43,7 @@ hi Float ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6897bb guibg=NONE gui=NONE
 hi Function ctermfg=221 ctermbg=NONE cterm=bold guifg=#ffc66d guibg=NONE gui=bold
 hi Identifier ctermfg=256 ctermbg=NONE cterm=NONE guifg=#ffc66d guibg=NONE gui=NONE
 hi Keyword ctermfg=173 ctermbg=NONE cterm=NONE guifg=#cc7832 guibg=NONE gui=NONE
-hi Label ctermfg=143 ctermbg=NONE cterm=NONE guifg=#a5c25c guibg=NONE gui=NONE
+hi Label ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9876aa guibg=NONE gui=NONE
 hi NonText ctermfg=250 ctermbg=236 cterm=NONE guifg=#bfbfbf guibg=#313233 gui=NONE
 hi Number ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6897bb guibg=NONE gui=NONE
 hi Operator ctermfg=256 ctermbg=NONE cterm=NONE guifg=#bbbbbb guibg=NONE gui=NONE
