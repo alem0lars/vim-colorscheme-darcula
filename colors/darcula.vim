@@ -9,7 +9,7 @@ endif
 
 let g:colors_name = "Darcula"
 
-hi Cursor ctermfg=235 ctermbg=250 cterm=NONE guifg=#2b2b2b guibg=#bbbbbb gui=NONE
+hi Cursor ctermfg=146 ctermbg=250 cterm=NONE guifg=#2b2b2b guibg=#a9b7c6 gui=NONE
 hi Visual ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#38393b gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#38393b gui=NONE
@@ -22,7 +22,7 @@ hi StatusLineNC ctermfg=146 ctermbg=236 cterm=NONE guifg=#a9b7c6 guibg=#505458 g
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
 hi Search ctermfg=235 ctermbg=143 cterm=NONE guifg=#2b2b2b guibg=#a5c25c gui=NONE
-hi IncSearch term=reverse ctermfg=250 ctermbg=24 guifg=#bbbbbb guibg=#214283 gui=none
+hi IncSearch term=reverse ctermfg=146 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
 hi Directory ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
 hi Folded ctermfg=244 ctermbg=235 cterm=NONE guifg=#8e9292 guibg=#2b2b2b gui=NONE
 
@@ -41,12 +41,12 @@ hi ErrorMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NON
 hi WarningMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
 hi Float ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6897bb guibg=NONE gui=NONE
 hi Function ctermfg=221 ctermbg=NONE cterm=bold guifg=#d58b48 guibg=NONE gui=bold
-hi Identifier ctermfg=256 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
+hi Identifier ctermfg=250 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi Keyword ctermfg=173 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=NONE
 hi Label ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=NONE
 hi NonText ctermfg=250 ctermbg=236 cterm=NONE guifg=#bfbfbf guibg=#313233 gui=NONE
 hi Number ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6897bb guibg=NONE gui=NONE
-hi Operator ctermfg=256 ctermbg=NONE cterm=NONE guifg=#bbbbbb guibg=NONE gui=NONE
+hi Operator ctermfg=250 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi PreProc ctermfg=173 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=NONE
 hi Special ctermfg=146 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi SpecialKey ctermfg=250 ctermbg=237 cterm=NONE guifg=#bfbfbf guibg=#38393b gui=NONE
@@ -87,7 +87,7 @@ hi erubyRailsMethod ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE 
 hi htmlTag ctermfg=173 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
 hi htmlEndTag ctermfg=173 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
 hi htmlTagName ctermfg=173 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
-hi htmlArg ctermfg=173 ctermbg=NONE cterm=NONE guifg=#bbbbbb guibg=NONE gui=NONE
+hi htmlArg ctermfg=173 ctermbg=NONE cterm=NONE guifg=#a9b7c6 guibg=NONE gui=NONE
 hi htmlSpecialChar ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
 hi javaScriptFunction ctermfg=173 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=NONE
 hi javaScriptRailsFunction ctermfg=59 ctermbg=NONE cterm=bold guifg=#3c4c72 guibg=NONE gui=bold
