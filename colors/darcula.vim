@@ -21,7 +21,7 @@ hi StatusLine ctermfg=146 ctermbg=236 cterm=bold guifg=#a9b7c6 guibg=#505458 gui
 hi StatusLineNC ctermfg=146 ctermbg=236 cterm=NONE guifg=#a9b7c6 guibg=#505458 gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
-hi Search ctermfg=235 ctermbg=143 cterm=NONE guifg=#2b2b2b guibg=#a5c25c gui=NONE
+hi Search term=reverse ctermfg=146 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
 hi IncSearch term=reverse ctermfg=146 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
 hi Directory ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
 hi Folded ctermfg=244 ctermbg=235 cterm=NONE guifg=#8e9292 guibg=#2b2b2b gui=NONE
