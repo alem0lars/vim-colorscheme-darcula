@@ -9,6 +9,10 @@ endif
 
 let g:colors_name = "Darcula"
 
+" #a9b7c6 Normal Text FG
+" #2b2b2b Normal Text BG
+" #9f8db7 JSON attributes FG
+
 hi Cursor ctermfg=146 ctermbg=250 cterm=NONE guifg=#2b2b2b guibg=#a9b7c6 gui=NONE
 hi Visual ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#38393b gui=NONE
@@ -22,7 +26,7 @@ hi StatusLineNC ctermfg=146 ctermbg=236 cterm=NONE guifg=#a9b7c6 guibg=#505458 g
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
 hi Search term=reverse ctermfg=146 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
-hi IncSearch term=reverse ctermfg=146 ctermbg=24 guifg=#a9b7c6 guibg=#214283 gui=none
+hi IncSearch term=reverse ctermfg=146 ctermbg=24 guifg=#a9b7c6 guibg=#47840d gui=none
 hi Directory ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
 hi Folded ctermfg=244 ctermbg=235 cterm=NONE guifg=#8e9292 guibg=#2b2b2b gui=NONE
 
