@@ -16,14 +16,15 @@ let g:colors_name = "Darcula"
 
 hi Cursor ctermfg=146 ctermbg=250 cterm=NONE guifg=#393939 guibg=#b8c4d0 gui=NONE
 hi Visual ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#38393b gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#414141 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#38393b gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#38393b gui=NONE
-hi LineNr ctermfg=60 ctermbg=234 cterm=NONE guifg=#6a7179 guibg=#38393b gui=NONE
+hi LineNr ctermfg=60 ctermbg=234 cterm=NONE guifg=#6a7179 guibg=#414141 gui=NONE
+hi CursorLineNr ctermfg=222 ctermbg=60 cterm=NONE guifg=#ffcf85 guibg=#6a7170 gui=NONE
 hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#505458 guibg=#505458 gui=NONE
-hi MatchParen ctermfg=172 ctermbg=NONE cterm=underline guifg=#d58b48 guibg=NONE gui=underline
-hi StatusLine ctermfg=146 ctermbg=236 cterm=bold guifg=#b8c4d0 guibg=#505458 gui=bold
-hi StatusLineNC ctermfg=146 ctermbg=236 cterm=NONE guifg=#b8c4d0 guibg=#505458 gui=NONE
+hi MatchParen ctermfg=173 ctermbg=NONE cterm=underline guifg=#d58b48 guibg=NONE gui=underline
+hi StatusLine ctermfg=146 ctermbg=236 cterm=bold guifg=#a9b7c6 guibg=#505458 gui=bold
+hi StatusLineNC ctermfg=146 ctermbg=236 cterm=NONE guifg=#a9b7c6 guibg=#505458 gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#214283 gui=NONE
 hi Search term=reverse ctermfg=146 ctermbg=24 guifg=#b8c4d0 guibg=#214283 gui=none
@@ -31,8 +32,8 @@ hi IncSearch term=reverse ctermfg=146 ctermbg=24 guifg=#b8c4d0 guibg=#47840d gui
 hi Directory ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
 hi Folded ctermfg=244 ctermbg=235 cterm=NONE guifg=#8e9292 guibg=#393939 gui=NONE
 
-hi Normal ctermfg=222 ctermbg=234 cterm=NONE guifg=#ffcf85 guibg=#393939 gui=NONE
-hi Boolean ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
+hi Normal ctermfg=146 ctermbg=235 cterm=NONE guifg=#b8c4d0 guibg=#393939 gui=NONE
+hi Boolean ctermfg=103 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
 hi Character ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=italic
 hi Comment ctermfg=244 ctermbg=NONE cterm=NONE guifg=#8e9292 guibg=NONE gui=italic
 hi Conditional ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
@@ -46,7 +47,7 @@ hi ErrorMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NON
 hi WarningMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
 hi Float ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6897bb guibg=NONE gui=NONE
 hi Function ctermfg=221 ctermbg=NONE cterm=bold guifg=#d58b48 guibg=NONE gui=bold
-hi Identifier ctermfg=250 ctermbg=NONE cterm=NONE guifg=#b8c4d0 guibg=NONE gui=NONE
+hi Identifier ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
 hi Keyword ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
 hi Label ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9f8db7 guibg=NONE gui=NONE
 hi NonText ctermfg=250 ctermbg=236 cterm=NONE guifg=#bfbfbf guibg=#313233 gui=NONE
@@ -56,7 +57,8 @@ hi PreProc ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
 hi Special ctermfg=146 ctermbg=NONE cterm=NONE guifg=#b8c4d0 guibg=NONE gui=NONE
 hi SpecialKey ctermfg=250 ctermbg=237 cterm=NONE guifg=#bfbfbf guibg=#38393b gui=NONE
 hi Statement ctermfg=222 ctermbg=NONE cterm=NONE guifg=#ffcf85 guibg=NONE gui=NONE
-hi StorageClass ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d58b48 guibg=NONE gui=bold
+hi StorageClass ctermfg=172 ctermbg=NONE cterm=NONE guifg=#b8c4d0 guibg=NONE gui=bold
+
 hi String ctermfg=71 ctermbg=NONE cterm=NONE guifg=#76976e guibg=NONE gui=NONE
 hi Tag ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Title ctermfg=146 ctermbg=NONE cterm=bold guifg=#b8c4d0 guibg=NONE gui=bold
@@ -109,3 +111,4 @@ hi cssClassName ctermfg=189 ctermbg=NONE cterm=NONE guifg=#d0d0ff guibg=NONE gui
 hi cssValueLength ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6897bb guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=28 ctermbg=NONE cterm=bold guifg=#06960e guibg=NONE gui=bold
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
