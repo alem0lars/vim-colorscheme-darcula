@@ -4,4 +4,4 @@ The Jetbrains Darcula color scheme for VIM
 
 ## Screenshots
 
-![Screenshot 1](https://imgur.com/KHMkRog)
+![Screenshot 1](https://i.imgur.com/KHMkRog.png)
